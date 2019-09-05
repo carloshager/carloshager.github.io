@@ -2,7 +2,7 @@ title: Carlos Hager
 description: > # this means to ignore newlines until "baseurl:"
   “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.” - Steve Jobs
   
-url: http://carloshager.com/
+url: http://carloshager.me/
 baseurl: ""
 paginate_path: "page:num/"
 permalink: :title/
@@ -22,6 +22,6 @@ navigation:
 social:
    github: carloshager
    twitter: carloshager
-   email: carloshager@gmail.com
+   email: carloshager@yahoo.com
 
 google_analytics: "UA-68039716-1"
