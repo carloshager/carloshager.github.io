@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "carloshager-me": {
+    "carloshager.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/carloshager-me",
+            "outputPath": "dist/carloshager.github.io",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "carloshager-me:build:production"
+              "browserTarget": "carloshager.github.io:build:production"
             },
             "development": {
-              "browserTarget": "carloshager-me:build:development"
+              "browserTarget": "carloshager.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "carloshager-me:build"
+            "browserTarget": "carloshager.github.io:build"
           }
         },
         "test": {
@@ -111,5 +111,5 @@
       }
     }
   },
-  "defaultProject": "carloshager-me"
+  "defaultProject": "carloshager.github.io"
 }

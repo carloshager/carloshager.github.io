@@ -1,6 +1,6 @@
 {
-  "name": "carloshager-me",
-  "version": "0.0.0",
+  "name": "carloshager.github.io",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
